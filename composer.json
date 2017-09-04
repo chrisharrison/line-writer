@@ -1,0 +1,18 @@
+{
+  "name": "chrisharrison/line-writer",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Chris Harrison",
+      "email": "c.harrison1988@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChrisHarrison\\LineWriter\\": "src/"
+    }
+  }
+}
