@@ -11,9 +11,9 @@ class LineWriter
         $this->lines = [];
     }
 
-    public function add(string $line)
+    public function add(?string $line = null)
     {
-        $this->lines[] = $line;
+        $this->lines[] = ($line !== null) ? $line : '';
     }
 
     public function __toString() : string
